@@ -125,7 +125,6 @@ public class Register extends AppCompatActivity {
                 }
                 // Item saved
             }
-
         }).start();
     }
 

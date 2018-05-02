@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     // Declare a DynamoDBMapper object- entry point to DynamoDB tables
     DynamoDBMapper dynamoDBMapper;
     UsersDO userItem = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
             t.join();
         } catch (Exception e) {
             Log.d("login: ", ""+ e);
-            
         }
     }
 
