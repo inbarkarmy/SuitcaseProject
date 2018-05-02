@@ -1,4 +1,5 @@
 package com.example.inbar.loggin;
+
 import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -124,6 +125,7 @@ public class Register extends AppCompatActivity {
                 }
                 // Item saved
             }
+
         }).start();
     }
 

@@ -10,7 +10,6 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.amazonaws.mobile.client.AWSMobileClient;
 import com.amazonaws.mobile.client.AWSStartupHandler;
 import com.amazonaws.mobile.client.AWSStartupResult;
@@ -22,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     // Declare a DynamoDBMapper object- entry point to DynamoDB tables
     DynamoDBMapper dynamoDBMapper;
     UsersDO userItem = null;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,6 +90,6 @@ public class MainActivity extends AppCompatActivity {
             Log.d("login: ", ""+ e);
             
         }
-
     }
+
 }
