@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
             t.join();
         } catch (Exception e) {
             Log.d("login: ", ""+ e);
+            
         }
 
     }
