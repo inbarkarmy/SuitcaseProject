@@ -26,7 +26,7 @@ public class AuthoenticatorActivity extends AppCompatActivity {
             @Override
             public void onComplete(AWSStartupResult awsStartupResult) {
                 SignInUI signin = (SignInUI) AWSMobileClient.getInstance().getClient(AuthoenticatorActivity.this, SignInUI.class);
-                signin.login(AuthoenticatorActivity.this, SuitcaseApp.class).execute();
+                signin.login(AuthoenticatorActivity.this, com.facebook.FacebookActivity.class).execute();
             }
         }).execute();
     }
