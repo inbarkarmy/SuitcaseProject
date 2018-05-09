@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">suitcase</string>
+    <string name="facebook_app_id">205369766938324</string>
+    <string name="fb_login_protocol_scheme">fb205369766938324</string>
+    <string name="title_activity_authoenticator">AuthoenticatorActivity</string>
 </resources>

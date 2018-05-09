@@ -127,5 +127,4 @@ public class Register extends AppCompatActivity {
             }
         }).start();
     }
-
 }

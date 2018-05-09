@@ -27,5 +27,9 @@
     "Default": {
       "Region": "us-east-1"
     }
+  },
+  "FacebookSignIn": {
+    "AppId": "205369766938324",
+    "Permissions": "public_profile"
   }
 }
